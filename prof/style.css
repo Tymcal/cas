@@ -1,0 +1,66 @@
+html, body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
+    
+}
+
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(45deg, #F27200, #FEAE00);
+    background-position: center;
+    background-size: cover;
+}
+
+.login-container {
+    max-width: 350px;
+    width: 70vw;
+    background-color: white;
+    padding: 1.8rem;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 120%;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+}
+
+label, input, a {
+    display: block;
+}
+
+.button {
+    width: 100%;
+    padding: 0.7rem;
+    color: white;
+    background-color: #F27200;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 4vh;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-width: 0;
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
