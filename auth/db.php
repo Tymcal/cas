@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+$servername = "tymcal.com";
 $username = "admin";
 $password = "Rpi1164741";
 $dbname = "cas";
