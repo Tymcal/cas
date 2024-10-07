@@ -125,12 +125,15 @@ a:hover {
     align-items: center;
 }
 
+.text-container {
+    width: 90%;
+}
+
 .next-container {
-    width: 47px;
-    height: 61px;
-    position: static;
-    right: 1px;
-    justify-content: right;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 0.75;
 }
 

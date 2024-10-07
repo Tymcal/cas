@@ -24,8 +24,8 @@ $id = $_SESSION['id'];
 <body>
     <div id="account-detail">
         <div class="button-container">
-            <button class="logout" href="https://tymcal.com/cas/auth/logout.php">sign out</button>
-            <button class="cancel" onclick="off()">back</button>
+            <a href="https://tymcal.com/cas/auth/logout.php"><button class="logout">sign out</button></a>
+            <a><button class="cancel" onclick="off()">back</button></a>
         </div>
     </div>
     <!-- <h1>Welcome, Prof. <?php echo $id; ?>!</h1> -->
@@ -36,6 +36,9 @@ $id = $_SESSION['id'];
     <div class="date-container">
         <div class="day" id="day"></div>
         <div class="date" id="date"></div>
+    </div>
+    <div>
+        <button id="container"></button>
     </div>
     <div class="container">
         <a class="class">
@@ -50,7 +53,7 @@ $id = $_SESSION['id'];
             <div class="next-container">
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
-        </a>
+</a>
         <a class="class">
             <div class="text-container">
                 <div class="time-subject-room-container">
@@ -68,8 +71,8 @@ $id = $_SESSION['id'];
     <!-- Add more dashboard content as needed -->
     
     <!-- <button onclick="getTimeAndLocation()">Try It</button> -->
-    <!-- <p id="time"></p>
-    <p id="location"></p> -->
+    <!-- <p id="time"></p> -->
+    <p id="location"></p>
     <script src="https://kit.fontawesome.com/e1e81ca5ae.js" crossorigin="anonymous"></script>
     <script src="loadLocNTime.js"></script>
     <script src="loadData.js"></script>

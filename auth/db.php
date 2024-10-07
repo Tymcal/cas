@@ -1,6 +1,6 @@
 <?php
-$servername = "tymcal.com";
-$username = "admin";
+$servername = "localhost";
+$username = "tymcal";
 $password = "Rpi1164741";
 $dbname = "cas";
 
